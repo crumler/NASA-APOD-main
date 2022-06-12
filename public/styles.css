@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html { font-size: 15px; }
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background: rgba(45,58,108,1);
+    background: -moz-linear-gradient(left, rgba(45,58,108,1) 0%, rgba(0,11,51,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(45,58,108,1)), color-stop(100%, rgba(0,11,51,1)));
+    background: -webkit-linear-gradient(left, rgba(45,58,108,1) 0%, rgba(0,11,51,1) 100%);
+    background: -o-linear-gradient(left, rgba(45,58,108,1) 0%, rgba(0,11,51,1) 100%);
+    background: -ms-linear-gradient(left, rgba(45,58,108,1) 0%, rgba(0,11,51,1) 100%);
+    background: linear-gradient(to right, rgba(45,58,108,1) 0%, rgba(0,11,51,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d3a6c', endColorstr='#000b33', GradientType=1 );
+}
+
+h1, h2, h3, p { text-align: center; }
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+h2,
+h3 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+p { margin-top: 2rem; }
+
+.container {
+    width: 90%;
+	max-width: 1100px;
+	margin-inline: auto;
+}
+
+@media (min-width: 600px) {
+    .previous-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
